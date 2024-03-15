@@ -42,6 +42,10 @@ main {
     text-transform: lowercase;
 }
 
+.cajaTexto::placeholder {
+    text-transform: capitalize;
+}
+
 .avisoUso {
     color: #495057;
     font-size: 1em;
