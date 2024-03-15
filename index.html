@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Encriptador | Alura</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" class="logo">
+    </header>
+    <main>
+        <section class="sectionTrabajo">
+                <textarea class="cajaTexto" placeholder="Ingrese texto aquí."></textarea>
+                <p class="avisoUso">&#128712; Solo letras minúsculas y sin tilde.</p>
+            <div class="contentBotones">
+                <input type="button" id="btnEncriptar" class="btnTrabajo" value="Encriptar">
+                <input type="button" id="btnDesencriptar" class="btnTrabajo" value="Desencriptar">
+            </div>
+        </section>
+        <section class="sectionResultados">
+            <div class="contentResultado">
+                <p class="textoResultado"></p>
+            </div>
+            <div class="contentMunieco">
+                <img src="img/munieco.svg" alt="Chico observando una lupa.">
+            </div>
+            <div class="contentParrafo">
+                <p class="parrafoNoTexto">No se ha encontrado texto</p>
+                <p class="parrafoInstruccion">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="contentCopy">
+                <input type="button" class="btnCopy" value="¡Copiar!">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&#128522; Hecho por <a href="https://github.com/CapBrillitos" target="_blank">Joaquín Brito. <img class="githubIcon" src="img/github-mark-white.svg"></a></p>
+        <p>Agradecimientos a la comunidad de Oracle Next Education, Alura Latam y todos sus participantes.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+body {
+    background-color: #f4f4fc;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    padding: 2%;
+    text-align: start;
+}
+
+.logo {
+    width: 5em;
+}
+
+main {
+    width: 100vw;
+    height: 90vh;
+    padding: 0 2% 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionTrabajo{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cajaTexto {
+    resize: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 50vh;
+    background-color: #f4f4fc;
+    color: #0a3871;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.5em;
+}
+
+.avisoUso {
+    color: #495057;
+    font-size: 1em;
+    margin: 2%;
+}
+
+.contentBotones {
+    display: flex;
+    flex-direction: row;
+}
+
+.btnTrabajo {
+    width: 40%;
+    margin: 0 2%;
+    padding: 2%;
+    background-color: #d8dfe8;
+    color: #0a3871;
+    font-size: 1em;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0a3871;
+    border-radius: .8em;
+}
+
+.btnTrabajo:hover {
+    background-color: #0a3871;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 140ms;
+}
+
+.btnTrabajo:active {
+    background-color: #083061;
+    transition: 120ms;
+}
+
+.sectionResultados {
+    width: 30%;
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 32px;
+    box-shadow: 0px 0px 39px -1px rgba(206,212,218,0.75);
+}
+
+.contentMunieco {
+    padding-top: 4.3em;
+}
+
+.contentParrafo {
+    text-align: center;
+}
+
+.parrafoNoTexto {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.parrafoInstruccion {
+    font-size: .8em;
+    color: #495057;
+}
+
+.contentCopy {
+    width: 100%;
+    text-align: center;
+}
+
+.btnCopy {
+    width: 40%;
+    padding: 2%;
+    background-color: #ffffff;
+    color: #0a3871;
+    font-size: .8em;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0a3871;
+    border-radius: .8em;
+}
+
+.btnCopy:hover {
+    background-color: #d8dfe8;
+    cursor: pointer;
+    transition: 140ms;
+}
+
+.btnCopy:active {
+    background-color: #adb5bd;
+    transition: 80ms;
+}
+footer {
+    width: 100vw;
+    height: 10vh;
+    padding: 10px 2em 1em;
+    background-color: #052051;
+    color: #d8dfe8;
+    font-size: 11px;
+    text-align: center;
+}
+
+.githubIcon {
+    width: 1em;
+}
+
+footer a {
+    color: #d8dfe8;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Responsivo */
+
+@media only screen and (max-width: 992px) {
+    header {
+        text-align: center;
+    }
+    main {
+        flex-direction: column;
+        margin-bottom: 4em;
+    }
+    .sectionTrabajo {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .sectionResultados {
+        width: 100%;
+    }
+    .contentMunieco {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contentBotones {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btnTrabajo {
+        width: 80%;
+        margin-bottom: 1em;
+        padding: 1em;
+    }
+}
