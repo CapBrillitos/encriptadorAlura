@@ -39,6 +39,7 @@ main {
     color: #0a3871;
     font-family: "Roboto Mono", monospace;
     font-size: 1.5em;
+    text-transform: lowercase;
 }
 
 .avisoUso {
